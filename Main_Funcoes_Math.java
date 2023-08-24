@@ -36,12 +36,7 @@ public class Main_Funcoes_Math {
 		
 		// Bhaskara
 		
-		double a;
-		double b;
-		double c;
-		double delta;
-		double x1;
-		double x2;
+		double a, b, c, delta, x1, x2;
 		
 		a = sc.nextDouble();
 		b = sc.nextDouble();
@@ -52,6 +47,10 @@ public class Main_Funcoes_Math {
 		x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
 		x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
 		
+		System.out.printf("x1 = %.f%n", x1);
+		System.out.printf("x1 = %.f%n", x2);
+		
+		sc.close();
 	}
 
 }

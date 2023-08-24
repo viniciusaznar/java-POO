@@ -22,9 +22,7 @@ public class Main_exercicio_06 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int id_peca_1, id_peca_2;
-		
-		int quantidade_peca_1, quantidade_peca_2;
+		int quantidade_peca_1, quantidade_peca_2, id_peca_1, id_peca_2;
 		
 		double total_valor_peca_1, uni_valor_peca_1, 
 		total_valor_peca_2, uni_valor_peca_2, total_pagamento;
@@ -41,7 +39,15 @@ public class Main_exercicio_06 {
 		
 		total_pagamento = total_valor_peca_1 + total_valor_peca_2;
 		
+		System.out.println(id_peca_1);
+		System.out.println(quantidade_peca_1);
+		System.out.println(uni_valor_peca_1);
 		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total_pagamento);		
+		
+		System.out.println(id_peca_2);
+		System.out.println(quantidade_peca_2);
+		System.out.println(uni_valor_peca_2);
+		System.out.printf("VALOR A PAGAR: R$ %.2f%n", total_pagamento);	
 		
 		sc.close();
 		

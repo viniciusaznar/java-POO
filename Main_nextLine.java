@@ -18,6 +18,12 @@ public class Main_nextLine {
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
 		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(x);
+		
+		sc.close();
 		
 
 	}

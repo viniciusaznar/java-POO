@@ -23,13 +23,7 @@ public class Main_exercicio_13 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double	valor, intervalo_1, intervalo_2, intervalo_3,
-				intervalo_4, intervalo_5;
-		
-		intervalo_1 = 25.0;
-		intervalo_2 = 50.0;
-		intervalo_3 = 75.0;
-		intervalo_4 = 100.0;
+		double	valor;
 		
 		System.out.println("Digiteum valor qualquer: ");
 		valor = sc.nextDouble();
