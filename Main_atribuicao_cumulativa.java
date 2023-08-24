@@ -9,7 +9,7 @@ public class Main_atribuicao_cumulativa {
 		Scanner sc = new Scanner(System.in);
 		
 		int minutos_consumidos, pacote_minutos;
-		double  conta;
+		double conta;
 		
 		conta = 50.0;
 		pacote_minutos = 100;
