@@ -1,7 +1,10 @@
 
-public class Main_Processamento_Casting {
+
+public class Main_processamento_casting {
 
 	public static void main(String[] args) {
+
+		// EXEMPLO 1 & 2:
 
 		int x;
 		double y;
@@ -13,7 +16,7 @@ public class Main_Processamento_Casting {
 		System.out.println(x);
 		System.out.println(y);
 		
-		// Área do Trapézio
+		// EXEMPLO 3 - AREA DO TRAPEZIO:
 		
 		double baseMenor, baseMaior, altura, area;
 		
@@ -26,6 +29,29 @@ public class Main_Processamento_Casting {
 		System.out.println(area);
 		
 		
+		// EXEMPLO 4:
+		
+		int a, b;
+		double resultado;
+		
+		a = 5;
+		b = 2;
+		
+		resultado = (double) a / b;
+		
+		System.out.println(resultado);
+		
+		
+		// EXEMPLO 5:
+		
+		
+		double a1;
+		int b1;
+		
+		a1 = 5.0;
+		b1 = (int) a1;
+		
+		System.out.println(b1);
 	}
 
 }
