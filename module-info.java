@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module dados_funcionario {
-}
